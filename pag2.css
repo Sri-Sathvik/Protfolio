@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  h1{
+    position: relative;
+    font-size: 49px;
+    color: white;
+  }
+  
+  .content1 {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 2%;
+    padding: 20px;
+    border-radius: 20px;
+  }  
+  .content1:hover{
+    transform: scale(1.1);
+    }
+  .content2 {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 50%;
+    margin-left: 20%;
+    border-radius: 20px;
+    margin-top: 1%;
+    padding: 20px;
+  }  
+  .content2:hover{
+    transform: scale(1.1);
+    }
+  .content4 {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 1%;
+    padding: 20px;
+  }  
+  .content4:hover{
+    transform: scale(1.1);
+    }
+  .content5 {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-top: 1%;
+    padding: 20px;
+  }  
+  .content5:hover{
+    transform: scale(1.1);
+    }
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20%;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  img{
+      margin-left: 5%;
+      height: 40%;
+      width: 40%;
+      border-radius: 250px;
+  }
